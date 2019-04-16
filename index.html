@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CheckYoSelf</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+  <header class="header">
+    <h1>Check<span class="yo">Yo</span>Self</h1>
+    <div class="header-search">
+      <i class="fas fa-search"></i>
+      <input type="text" class="search-input" placeholder="Search">
+    </div>
+  </header>
+  <section class="sidebar">
+    <form class="task-form">
+      <label class="task-styles" for="title">Task Title</label>
+      <input type="text" class="title-input" id="title">
+      <label class="task-styles" for="item">Task Item</label>
+      <input type="text" class="task-input" id="task">
+      <i class="fas fa-plus"></i>
+      <input type="submit" class="clear-all-btn" value="Clear All">
+      <input type="submit" class="filter-btn" value="Filter by Urgency">
+    </form>
+  </section>
+  <section class="card-area">
+    <article class="task-card">
+      <h3 class="card-title">Task Title</h3>
+      <form class="task-list">
+        <input type="radio" name="task-name" value="Added-Task">
+        <input type="radio" name="task-name" value="Added-Task">
+        <input type="radio" name="task-name" value="Added-Task">
+      </form>
+      <footer class="card-footer">
+        <div class="urg-div">
+        <input type="image" class="urgent" src="assets/urgent.svg">
+        <p>URGENT</p>
+        </div>
+        <div class="delete-div">
+        <input type="image" class="delete" src="assets/delete.svg">
+        <p>DELETE</p>
+        </div>
+      </footer>
+  </section>
+</body>
+</html>
